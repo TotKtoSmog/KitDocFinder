@@ -1,0 +1,15 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: KitDocFinder
+  name: KitDocFinder
+  href: api/KitDocFinder.html
+  commentId: N:KitDocFinder
+  fullName: KitDocFinder
+  nameWithType: KitDocFinder
+- uid: KitDocFinder.Program
+  name: Program
+  href: api/KitDocFinder.Program.html
+  commentId: T:KitDocFinder.Program
+  fullName: KitDocFinder.Program
+  nameWithType: Program

@@ -1,6 +1,9 @@
 ﻿namespace KitDocFinder
 {
-    internal class Program
+    /// <summary>
+    /// Точка входа в приложение
+    /// </summary>
+    public class Program
     {
         static void Main(string[] args)
         {

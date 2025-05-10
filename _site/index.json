@@ -1,0 +1,32 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "KitDocFinder | KitDocFinderSite",
+    "summary": "KitDocFinder"
+  },
+  "api/KitDocFinder.Program.html": {
+    "href": "api/KitDocFinder.Program.html",
+    "title": "Class Program | KitDocFinderSite",
+    "summary": "Class Program Namespace KitDocFinder Assembly KitDocFinder.dll Точка входа в приложение public class Program Inheritance object Program Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/KitDocFinder.html": {
+    "href": "api/KitDocFinder.html",
+    "title": "Namespace KitDocFinder | KitDocFinderSite",
+    "summary": "Namespace KitDocFinder Classes Program Точка входа в приложение"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | KitDocFinderSite",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | KitDocFinderSite",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | KitDocFinderSite",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

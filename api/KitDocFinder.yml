@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: KitDocFinder
+  commentId: N:KitDocFinder
+  id: KitDocFinder
+  children:
+  - KitDocFinder.Program
+  langs:
+  - csharp
+  - vb
+  name: KitDocFinder
+  nameWithType: KitDocFinder
+  fullName: KitDocFinder
+  type: Namespace
+  assemblies:
+  - KitDocFinder
+references:
+- uid: KitDocFinder.Program
+  commentId: T:KitDocFinder.Program
+  href: KitDocFinder.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: KitDocFinder.Program
