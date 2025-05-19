@@ -22,6 +22,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.Document.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models.Document",
+      "Summary": "<p sourcefile=\"api/KitDocFinder.Models.Document.yml\" sourcestartlinenumber=\"1\">Модель данных для сущности &quot;Документ&quot;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.DocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.DocumentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models.DocumentType",
+      "Summary": "<p sourcefile=\"api/KitDocFinder.Models.DocumentType.yml\" sourcestartlinenumber=\"1\">Модель данных для сущности &quot;Типа документа&quot;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.Documentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.Documentation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models.Documentation",
+      "Summary": "<p sourcefile=\"api/KitDocFinder.Models.Documentation.yml\" sourcestartlinenumber=\"1\">Модель данных для сущности &quot;Документация&quot;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.Product.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models.Product",
+      "Summary": "<p sourcefile=\"api/KitDocFinder.Models.Product.yml\" sourcestartlinenumber=\"1\">Модель данных для сущности &quot;Продукт&quot;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.TelegramUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.TelegramUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models.TelegramUser",
+      "Summary": "<p sourcefile=\"api/KitDocFinder.Models.TelegramUser.yml\" sourcestartlinenumber=\"1\">Модель данных для сущности &quot;Пользователь Telegram-bot&quot;</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KitDocFinder.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KitDocFinder.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "KitDocFinder.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/KitDocFinder.Program.yml",
       "output": {
         ".html": {
@@ -52,11 +136,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -85,11 +169,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -108,11 +192,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

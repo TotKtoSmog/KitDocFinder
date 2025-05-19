@@ -4,6 +4,36 @@
     "title": "| KitDocFinderSite",
     "summary": "KitDocFinder — Telegram-бот для поиска документации KitDocFinder — это Telegram-бот, предназначенный для быстрого доступа к технической документации, программному обеспечению и драйверам, связанным с конструкторами и робототехническими наборами. Пользователь может найти нужные материалы по номеру набора, артикулу или названию. Бот подключается к базе данных, в которой хранятся ссылки на документы, размещённые на FTP-сервере. Функциональность: Поиск всех документов по артикулу или номеру; Отправка полного комплекта документации в виде архива; Выбор версии ПО, если их несколько; Проверка авторизации пользователя; Удобная навигация по командам через /start и /help."
   },
+  "api/KitDocFinder.Models.Document.html": {
+    "href": "api/KitDocFinder.Models.Document.html",
+    "title": "Class Document | KitDocFinderSite",
+    "summary": "Class Document Namespace KitDocFinder.Models Assembly KitDocFinder.dll Модель данных для сущности \"Документ\" public class Document Inheritance object Document Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CreateAt Дата создания документа public required DateTime CreateAt { get; set; } Property Value DateTime DocumentTypeId Внешний ключ для сущности \"Тип документа\" public int DocumentTypeId { get; set; } Property Value int DocumentationId Внешний ключ для сущности \"Документация\" public int DocumentationId { get; set; } Property Value int Id Идентификатор сущности \"Документ\" public int Id { get; set; } Property Value int Link Ссылка на документ public required string Link { get; set; } Property Value string Platform Целевая платформа public required string Platform { get; set; } Property Value string Title Название документа public required string Title { get; set; } Property Value string Version Версия документа public required string Version { get; set; } Property Value string"
+  },
+  "api/KitDocFinder.Models.DocumentType.html": {
+    "href": "api/KitDocFinder.Models.DocumentType.html",
+    "title": "Class DocumentType | KitDocFinderSite",
+    "summary": "Class DocumentType Namespace KitDocFinder.Models Assembly KitDocFinder.dll Модель данных для сущности \"Типа документа\" public class DocumentType Inheritance object DocumentType Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id Идентификатор сущности \"Тип документа\" public int Id { get; set; } Property Value int Title Название типа документа public required string Title { get; set; } Property Value string"
+  },
+  "api/KitDocFinder.Models.Documentation.html": {
+    "href": "api/KitDocFinder.Models.Documentation.html",
+    "title": "Class Documentation | KitDocFinderSite",
+    "summary": "Class Documentation Namespace KitDocFinder.Models Assembly KitDocFinder.dll Модель данных для сущности \"Документация\" public class Documentation Inheritance object Documentation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id Идентификатор сущности \"Документации\" public int Id { get; set; } Property Value int Number Номер документации public required string Number { get; set; } Property Value string Title Название документации public required string Title { get; set; } Property Value string"
+  },
+  "api/KitDocFinder.Models.Product.html": {
+    "href": "api/KitDocFinder.Models.Product.html",
+    "title": "Class Product | KitDocFinderSite",
+    "summary": "Class Product Namespace KitDocFinder.Models Assembly KitDocFinder.dll Модель данных для сущности \"Продукт\" public class Product Inheritance object Product Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties DocumentationId Внешний ключ для сущности \"Документация\" public int DocumentationId { get; set; } Property Value int Id Идентификатор сущности \"Продукта\" public int Id { get; set; } Property Value int Title Название продукта public required string Title { get; set; } Property Value string"
+  },
+  "api/KitDocFinder.Models.TelegramUser.html": {
+    "href": "api/KitDocFinder.Models.TelegramUser.html",
+    "title": "Class TelegramUser | KitDocFinderSite",
+    "summary": "Class TelegramUser Namespace KitDocFinder.Models Assembly KitDocFinder.dll Модель данных для сущности \"Пользователь Telegram-bot\" public class TelegramUser Inheritance object TelegramUser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CreateAt Дата Создания пользователя public DateTime CreateAt { get; set; } Property Value DateTime FirstName Реальное имя пользователя public required string FirstName { get; set; } Property Value string Id Идентификатор сущности \"Пользователь Telegram-bot\" public int Id { get; set; } Property Value int IsAuthorized Статус авторизации пользователя public bool IsAuthorized { get; set; } Property Value bool LastActivityAt Время последней активности пользователя public DateTime LastActivityAt { get; set; } Property Value DateTime LastCommand Последняя команда пользователя public required string LastCommand { get; set; } Property Value string LastName Реальное фамилия public required string LastName { get; set; } Property Value string TelegramUserId Личный идентификатор пользователя Telegram public long TelegramUserId { get; set; } Property Value long TelegramUserName Имя пользователя в Telegram public required string TelegramUserName { get; set; } Property Value string"
+  },
+  "api/KitDocFinder.Models.html": {
+    "href": "api/KitDocFinder.Models.html",
+    "title": "Namespace KitDocFinder.Models | KitDocFinderSite",
+    "summary": "Namespace KitDocFinder.Models Classes Document Модель данных для сущности \"Документ\" DocumentType Модель данных для сущности \"Типа документа\" Documentation Модель данных для сущности \"Документация\" Product Модель данных для сущности \"Продукт\" TelegramUser Модель данных для сущности \"Пользователь Telegram-bot\""
+  },
   "api/KitDocFinder.Program.html": {
     "href": "api/KitDocFinder.Program.html",
     "title": "Class Program | KitDocFinderSite",
